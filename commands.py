@@ -77,5 +77,5 @@ while True:
     if user_input == command:
         print("Correct! Moving to the next definition.\n")
     else:
-        print("Incorrect. Exiting the script.")
+        print(f"Incorrect. The correct command was: {command}. Exiting the script.")
         break
